@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Parisienne&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+/*HEADER*/
+body {
+  color: black;
+  background-color: #ffdbe1;
+  background-image: linear-gradient(#ffdbe1, white);
+  overflow-x: hidden; }
+
+title {
+  color: #e01675; }
+
+/*MENU*/
+ul {
+  list-style: none;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  margin: 0.5rem; }
+  ul li {
+    display: inline-block;
+    margin: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    color: palevioletred; }
+
+a {
+  color: palevioletred; }
+
+/*NAV*/
+nav a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 14px;
+  font-family: Open Sans Condensed; }
+
+nav li {
+  display: inline-block;
+  width: 150px;
+  height: 30px;
+  padding: 5px 10px;
+  background-color: palevioletred;
+  border: 1px solid palevioletred;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  margin-left: 10px;
+  margin-right: 10px; }
+  nav li:hover {
+    background-color: #fff;
+    color: palevioletred; }
+    nav li:hover > ul {
+      display: block;
+      z-index: 1000;
+      position: absolute;
+      top: 30px;
+      right: 0px; }
+  nav li ul {
+    display: none; }
+
+/*FIN HEADER*/
+/*PAGINAS*/
+/*TABLA DE TALLES*/
+th {
+  font-family: Open Sans Condensed;
+  font-style: normal;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 30px;
+  color: #f05ea2; }
+
+td {
+  font-family: Open Sans Condensed;
+  font-style: 600;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 20px;
+  color: palevioletred; }
+
+/*CONTACTO*/
+div label {
+  font-family: Open Sans Condensed;
+  font-style: 600;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 30px; }
+
+form {
+  text-align: center; }
+
+form label option {
+  display: inline-block;
+  width: 60%;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 600; }
+
+/*FIN DE PAGINAS*/
+/*FOOTER*/
+.subtituloPieDePagina {
+  font-family: Parisienne;
+  font-style: normal;
+  font-size: 1.5rem;
+  text-align: center;
+  color: palevioletred;
+  margin-top: 20px; }
+
+.linkRedes {
+  font-size: 1rem;
+  color: palevioletred; }
+
+.contenedor__pieDePagina {
+  background-color: white; }
+
+/*FIN DE FOOTER*/
+.logo {
+  transform: scale(90%, 90%);
+  width: 10%;
+  height: inherit;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  margin-top: 15px;
+  display: block;
+  animation: heartBeat;
+  animation-duration: 1s; }
+
+h1 {
+  color: rosybrown; }
+
+h2 {
+  color: palevioletred; }
+
+h3 {
+  color: pink; }
+
+h4 {
+  color: #f05ea2; }
+
+h6 {
+  color: pink; }
+
+.tipografia {
+  font-style: normal; }
+  .tipografia__marca {
+    font-family: Parisienne;
+    font-size: 3rem;
+    text-align: center; }
+  .tipografia__paginas {
+    font-family: Open Sans Condensed;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 50px; }
+  .tipografia__secciones {
+    font-family: Open Sans Condensed;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 100px; }
+  .tipografia__talles {
+    font-family: Open Sans Condensed;
+    font-style: 600;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 30px;
+    color: #e01675; }
+  .tipografia__subtituloContacto {
+    font-family: Parisienne;
+    font-style: normal;
+    font-size: 1.5rem;
+    text-align: center;
+    color: palevioletred;
+    margin-top: 20px; }
+
+/*TRANSICION SUBTITULOS*/
+h3:hover {
+  transition: 3s;
+  font-size: 3rem; }
+
+/*BOOTSTRAP*/
+.contenedor {
+  background-color: palevioletred; }
+  .contenedor__musica {
+    margin-bottom: 20px; }
+
+div img {
+  margin-top: 20px;
+  margin-bottom: 30px; }
+
+.ubicacion__novedadesImg {
+  margin-bottom: 20px; }
+
+.ubicacion__productosImg {
+  height: inherit;
+  padding: 20px 70px; }
+
+.ubicacion__contactoImg {
+  width: 50%;
+  height: inherit;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
+
+.table__th--modifier {
+  color: #f05ea2; }
+
+.table__th {
+  color: #f05ea2; }
+
+.table__td {
+  color: pink; }
+
+/*MAS VENDIDOS*/
+.transformacionMasVendidos:hover {
+  transform: scale(120%); }
+
+/*NOVEDADES*/
+video {
+  margin-top: 50px; }
+
+.imgNovedades {
+  margin-bottom: 30px; }

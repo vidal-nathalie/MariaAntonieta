@@ -1,0 +1,152 @@
+@import 'components/header';
+@import 'components/paginas';
+@import 'components/footer';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Parisienne&display=swap');
+
+.logo{
+    transform: scale(90%,90%);
+    width: 10%;
+    height:inherit;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-bottom: 25px;
+    margin-top: 15px;
+    display: block;
+    animation: heartBeat;
+    animation-duration: 1s;
+}
+
+
+h1{
+    color: rosybrown;
+}
+h2{
+    color: palevioletred;
+}
+h3{
+    color: pink;
+}
+h4{
+    color: #f05ea2;
+}
+h6{
+    color: pink;
+}
+
+.tipografia{
+    font-style: normal;
+    &__marca{
+    font-family: Parisienne;
+    font-size: 3rem;
+    text-align: center;
+    }
+
+    &__paginas{
+        font-family: Open Sans Condensed;
+        font-weight: 600;
+        font-size: 1.5rem;
+        line-height: 50px;
+    }
+
+    &__secciones{
+        font-family: Open Sans Condensed;
+        font-size: 2rem;
+        text-align: center;
+        line-height: 100px;
+    }
+
+    &__talles{    
+        font-family: Open Sans Condensed;
+        font-style: 600;
+        font-size: 1.5rem;
+        text-align: center;
+        line-height: 30px;
+        color: #e01675;
+    }
+
+    &__subtituloContacto{
+        font-family: Parisienne;
+        font-style: normal;
+        font-size: 1.5rem;
+        text-align: center;
+        color: palevioletred;
+        margin-top: 20px;
+    }
+
+}
+
+/*TRANSICION SUBTITULOS*/
+h3{
+    &:hover{
+        transition: 3s;
+        font-size: 3rem;
+    }
+}
+
+/*BOOTSTRAP*/
+.contenedor{
+    background-color: palevioletred;
+
+    &__musica{
+        margin-bottom: 20px;
+    }
+}
+
+div{
+    img{
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+}
+
+.ubicacion{
+    &__novedadesImg{
+        margin-bottom: 20px;
+    }
+
+    &__productosImg{
+        height:inherit;
+        padding: 20px 70px;
+    }
+
+    &__contactoImg{
+        width: 50%;
+        height:inherit;
+        margin-left: auto;
+        margin-right: auto; 
+        display: block;
+    }
+}
+
+.table{
+    &__th--modifier{
+        color: #f05ea2;
+    }
+
+    &__th{
+        color: #f05ea2;
+    }
+
+    &__td{
+        color:pink;
+    }
+}
+
+/*MAS VENDIDOS*/
+.transformacionMasVendidos{
+    &:hover{
+        transform: scale(120%);
+    }
+}
+
+/*NOVEDADES*/
+video{
+    margin-top: 50px;
+}
+.imgNovedades{
+    margin-bottom: 30px;
+}
+
+
+
+
