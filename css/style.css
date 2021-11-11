@@ -64,6 +64,11 @@ nav li {
 /*FIN HEADER*/
 /*PAGINAS*/
 /*TABLA DE TALLES*/
+table {
+  margin: auto;
+  width: 50% !important; 
+}
+
 th {
   font-family: Open Sans Condensed;
   font-style: normal;
